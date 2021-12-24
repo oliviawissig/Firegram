@@ -12,7 +12,6 @@ const useStorage = (file) => {
     //references
     const storageRef = projectStorage.ref(file.name);
     const collectionRef = projectFirestore.collection('images');
-
     storageRef.put(file).on('state_changed', (snap) => {
       //snap = snapshot in time of the upload in that moment in time
       let percentage = (snap.bytesTransferred / snap.totalBytes) * 100;
@@ -26,8 +25,6 @@ const useStorage = (file) => {
       collectionRef.add({ url, createdAt })
     });
   }, [file]);
-
-  console.log(progress, url, error);
 
   return { progress, url, error }
 }
