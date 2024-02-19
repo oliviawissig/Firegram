@@ -16,7 +16,7 @@ I learned/improved on:
  -->
 
 <span align="center">
-  <img src="https://i.imgur.com/SAXCAdr.png" alt="" width="625"/>
+  <img src="https://i.imgur.com/Yb7M0ir.png" alt="" width="625"/>
 </span>
 
 ### Built With
