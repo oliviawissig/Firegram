@@ -32,13 +32,13 @@ form {
   text-align: center;
 }
 
-input {
+.upload-input {
   height: 0;
   width: 0;
   opacity: 0;
 }
 
-label {
+.upload-label {
   display: block;
   width: 30px;
   height: 30px;
@@ -52,19 +52,9 @@ label {
   font-size: 24px;
 }
 
-label:hover {
+.upload-label:hover {
   background: var(--primary);
   color: white;
-}
-
-button {
-  border: none;
-  background-color: transparent;
-}
-
-button i:hover {
-  cursor: pointer;
-  color: var(--secondary);
 }
 
 .error {
@@ -115,6 +105,13 @@ button i:hover {
   font-size: 22px;
   padding: 9px;
   color: var(--primary);
+  border: none;
+  background-color: transparent;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+  color: var(--secondary);
 }
 
 .timestamp {
