@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "http://.",
   "name": "firegram",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +15,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "npm run start",
-    "build": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +37,16 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+  "description": "[oliviawissig.com/Firegram](https://oliviawissig.com/Firegram)",
+  "main": "config-overrides.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviawissig/Firegram.git"
+  },
+  "author": "https://github.com/oliviawissig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliviawissig/Firegram/issues"
   }
 }
