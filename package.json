@@ -15,10 +15,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "npm run start",
+    "build": "npm run build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
