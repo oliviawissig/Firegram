@@ -4,6 +4,8 @@ import useFirestore from '../hooks/useFirestore';
 import { motion } from 'framer-motion';
 import firebase from 'firebase';
 
+import '../styling/imagegrid.css';
+
 const ImageGrid = ({ setSelectedImg }) => {
   const { docs, setDocs } = useFirestore('images');
 

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import useStorage from '../hooks/useStorage';
 
 import { motion } from 'framer-motion';
+import '../styling/progressbar.css';
 
 const ProgressBar = ({ file, setFile }) => {
   //hook will fire, take the file, make a reference to the file,

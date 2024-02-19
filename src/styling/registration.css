@@ -1,0 +1,53 @@
+h4{
+    margin:0;
+    margin:10px 0;
+    text-align: left;
+}
+
+span{
+    margin:0;
+    padding:20px 0;
+}
+
+p{
+    margin:0;
+}
+
+.green-true{
+    color:green;
+    display:inline-block;
+}
+  
+.red-false{
+    color:red;
+    display:inline-block;
+}
+
+.user-registration{
+    width:60vw;
+    margin:auto;
+}
+
+.email-v-btn{
+    background-color: transparent;
+    border: none;
+    padding:0;
+    font-size:1rem;
+    color:var(--primary);
+    text-decoration: underline;
+}
+
+.registration-form{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .user-registration{
+        width:90vw;
+        text-align: left;
+    }
+
+    .registration-form{
+        text-align: left;
+    }
+}

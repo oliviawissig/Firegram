@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { projectFirestore, projectStorage, timestamp } from '../firebase/config';
+import { auth, projectFirestore, projectStorage, timestamp } from '../firebase/config';
 
 const useStorage = (file) => {
   const [progress, setProgress] = useState(0);
@@ -21,8 +21,9 @@ const useStorage = (file) => {
     }, async () => {
       const url = await storageRef.getDownloadURL();
       const createdAt = timestamp();
+      const uploadedUserID = auth.currentUser.uid;
       setUrl(url);
-      collectionRef.add({ url, createdAt })
+      collectionRef.add({ url, createdAt, uploadedUserID })
     });
   }, [file]);
 
