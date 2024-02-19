@@ -1,5 +1,5 @@
 # Firegram
-<!-- [oliviawissig.com/Firegram](https://oliviawissig.com/Firegram) --> 
+[firegram.oliviawissig.com](https://firegram.oliviawissig.com/)
 
 ### Overview
 A project that utilizes Firebase to upload and display images on a pages. On load, a placeholder is shown until the images are ready to display. On page refresh, the photos do not leave the page and remain uploaded. 
